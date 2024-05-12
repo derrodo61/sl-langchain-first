@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_openai import OpenAI
 
-st.title("🦜🔗 Quickstart App")
+st.title("RD - Minimalistic first app")
 
 openai_api_key = st.sidebar.text_input("OpenAI API Key")
 
