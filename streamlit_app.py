@@ -3,7 +3,9 @@ from langchain_openai import OpenAI
 
 st.title("RD - Minimalistic first app")
 
+
 openai_api_key = st.sidebar.text_input("OpenAI API Key")
+submit_button = st.sidebar.button("Submit")
 
 
 def generate_response(input_text):
