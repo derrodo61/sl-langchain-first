@@ -28,4 +28,4 @@ ENV/
 .DS_Store
 
 # Pip
-requirements.txt
+# requirements.txt
